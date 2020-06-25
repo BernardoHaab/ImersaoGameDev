@@ -5,9 +5,9 @@ let song;
 let character;
 
 function preload() {
-    imageBackground = loadImage("imagens/cenario/floresta.png");
-    imageCharacter = loadImage("imagens/personagem/correndo.png");
-    song = loadSound("sons/trilha_jogo.mp3")
+    imageBackground = loadImage("images/scenario/florest.png");
+    imageCharacter = loadImage("images/characters/running.png");
+    song = loadSound("sounds/gameSong.mp3")
 }
 
 function setup() {
